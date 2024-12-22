@@ -27,7 +27,8 @@ This project demonstrates the use of CI/CD pipelines to streamline application d
 
 ### Repo Structure:
 
-### JenkinsComplex: Jenkins setup for Python-based CI/CD pipelines.
+### JenkinsComplex:
+Jenkins setup for Python-based CI/CD pipelines.
 ### ContinuousDelivery: Defines the CI/CD pipeline structure and configurations.
 ### ProvisionAppServer: Terraform and Ansible scripts for provisioning AWS resources and deploying the application.
 ### Links and Outputs:
