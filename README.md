@@ -5,8 +5,7 @@
 ## Project Structure:
 
 ### Jenkins Setup:
-
-#### The project sets up a complex Jenkins environment using the JenkinsComplex repository. The environment includes a Python node configured according to the specifications in class instructions. The Java node is not required for this lab, as the focus is on the Python API.
+The project sets up a complex Jenkins environment using the JenkinsComplex repository. The environment includes a Python node configured according to the specifications in class instructions. The Java node is not required for this lab, as the focus is on the Python API.
 
 ### CI/CD Pipelines:
 
@@ -17,11 +16,14 @@ This pipeline automates the deployment process using Ansible. It provisions a Py
 
 ### Infrastructure Provisioning:
 
-#### AWS EC2 Instances: Terraform is used to create and configure AWS EC2 instances, including the Jenkins master, Jenkins agents, a MariaDB SQL database server, and a Python application server. The project also includes a MariaDB database instance, which is part of the backend for the Python API. The EC2 instances are listed, showing their public IPs for easy access.
+#### AWS EC2 Instances: 
+Terraform is used to create and configure AWS EC2 instances, including the Jenkins master, Jenkins agents, a MariaDB SQL database server, and a Python application server. The project also includes a MariaDB database instance, which is part of the backend for the Python API. The EC2 instances are listed, showing their public IPs for easy access.
 
-#### Application Deployment: The Python application is deployed to an EC2 instance, and Ansible is used to automate the process. After deployment, the API is tested by executing a curl command to verify its successful operation.
+#### Application Deployment: 
+The Python application is deployed to an EC2 instance, and Ansible is used to automate the process. After deployment, the API is tested by executing a curl command to verify its successful operation.
 
-### Purpose: This project demonstrates the use of CI/CD pipelines to streamline application deployment, reduce manual intervention, and ensure the Python API is continuously tested and deployed in an efficient and automated manner.
+### Purpose: 
+This project demonstrates the use of CI/CD pipelines to streamline application deployment, reduce manual intervention, and ensure the Python API is continuously tested and deployed in an efficient and automated manner.
 
 ### Repo Structure:
 
