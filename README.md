@@ -15,7 +15,7 @@ The project establishes a robust Jenkins environment using the JenkinsComplex re
 ### 🛠️ Continuous Integration Pipeline:
 Automates building and testing of the Python API.
 
-Includes steps for:
+Includes steps for:<br>
 ✅ Code linting with pylint.<br>
 🧪 Running unit tests.<br>
 📦 Building the Python application.
@@ -28,7 +28,7 @@ Deploys the API and verifies its successful operation.<br>
 ### 🌐 Infrastructure Provisioning:
 
 #### ☁️ AWS EC2 Instances:
-Terraform provisions AWS EC2 instances, including:
+Terraform provisions AWS EC2 instances, including:<br>
 🖥️ Jenkins master.<br>
 🤖 Jenkins agents.<br>
 🗄️ MariaDB SQL database server.<br>
