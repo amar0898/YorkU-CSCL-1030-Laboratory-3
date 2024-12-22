@@ -34,7 +34,7 @@ Defines the CI/CD pipeline structure and configurations.
 ### ProvisionAppServer: 
 Terraform and Ansible scripts for provisioning AWS resources and deploying the application.
 ### Links and Outputs:
-• Output from terraform apply for provisioning servers and resources.
+# • Output from terraform apply for provisioning servers and resources.
 • AWS EC2 list with public IPs of the provisioned instances.
 • Pipeline console outputs for integration and deployment jobs.
 • Curl command executed on the Python app server to verify the API's operation.
