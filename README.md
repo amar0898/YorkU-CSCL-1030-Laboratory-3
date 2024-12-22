@@ -39,3 +39,7 @@ Terraform and Ansible scripts for provisioning AWS resources and deploying the a
 • Pipeline console outputs for integration and deployment jobs.
 • Curl command executed on the Python app server to verify the API's operation.
 • By the end of this lab, you will have a fully automated CI/CD pipeline in place, making your Python application deployment process efficient and scalable.
+
+• CI/CD Pipeline: Integrate a CI/CD pipeline to automate testing and deployment. 🛠️
+• Enhanced Security: Add authentication and authorization mechanisms. 🔐
+• Monitoring and Metrics: Integrate Prometheus and Grafana for advanced monitoring. 📊
