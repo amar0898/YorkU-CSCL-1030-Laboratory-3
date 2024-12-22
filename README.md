@@ -1,4 +1,4 @@
-# YorkU CSCL1030 Laboratory 3
+# 🌟 YorkU CSCL1030 Laboratory 3
 
 #### This assignment focuses on the implementation of Continuous Integration (CI) and Continuous Delivery (CD) pipelines for a Python API using Jenkins, Terraform, and Ansible. The main objective is to automate the process of building, testing, and deploying a Python-based application, integrating various tools and technologies to streamline deployment in an AWS environment.
 
