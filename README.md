@@ -10,8 +10,10 @@
 
 ### CI/CD Pipelines:
 
-#### Continuous Integration Pipeline: Built using the guidelines from class 9, this pipeline automates the process of building and testing the Python API. It includes stages like code linting with pylint, running unit tests, and building the Python application.
-#### Continuous Delivery Pipeline: This pipeline automates the deployment process using Ansible. It provisions a Python application server, deploys the API, and ensures that it is running successfully.
+#### Continuous Integration Pipeline: 
+Built using the guidelines from class 9, this pipeline automates the process of building and testing the Python API. It includes stages like code linting with pylint, running unit tests, and building the Python application.
+#### Continuous Delivery Pipeline: 
+This pipeline automates the deployment process using Ansible. It provisions a Python application server, deploys the API, and ensures that it is running successfully.
 
 ### Infrastructure Provisioning:
 
