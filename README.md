@@ -16,36 +16,36 @@ The project establishes a robust Jenkins environment using the JenkinsComplex re
 Automates building and testing of the Python API.
 
 Includes steps for:
-✅ Code linting with pylint.
-🧪 Running unit tests.
+✅ Code linting with pylint.<br>
+🧪 Running unit tests.<br>
 📦 Building the Python application.
 
 ### 🚀 Continuous Delivery Pipeline:
-Automates deployment using Ansible.
-Provisions a Python application server.
-Deploys the API and verifies its successful operation.
+Automates deployment using Ansible.<br>
+Provisions a Python application server.<br>
+Deploys the API and verifies its successful operation.<br>
 
 ### 🌐 Infrastructure Provisioning:
 
 #### ☁️ AWS EC2 Instances:
 Terraform provisions AWS EC2 instances, including:
-🖥️ Jenkins master.
-🤖 Jenkins agents.
-🗄️ MariaDB SQL database server.
-🐍 Python application server.
-🛡️ Includes MariaDB database as part of the backend for the Python API.
+🖥️ Jenkins master.<br>
+🤖 Jenkins agents.<br>
+🗄️ MariaDB SQL database server.<br>
+🐍 Python application server.<br>
+🛡️ Includes MariaDB database as part of the backend for the Python API.<br>
 🌍 Public IPs for EC2 instances are listed for easy access.
 
 #### 🖥️ Application Deployment:
-Python application is deployed to an EC2 instance.
-Deployment process is automated using Ansible.
+Python application is deployed to an EC2 instance.<br>
+Deployment process is automated using Ansible.<br>
 ✅ Verified using a curl command to ensure the API is operational.
 
 ### 🎯 Purpose:
 This project demonstrates the power of CI/CD pipelines to:
 
-🚀 Streamline application deployment.
-🔄 Reduce manual intervention.
+🚀 Streamline application deployment.<br>
+🔄 Reduce manual intervention.<br>
 ✅ Ensure continuous testing and deployment for the Python API.
 
 ### 📂 Repo Structure:
@@ -57,9 +57,9 @@ Defines the CI/CD pipeline structure and configurations.
 ### 📂 ProvisionAppServer:
 Terraform and Ansible scripts for provisioning AWS resources and deploying the application.
 ### 🔗 Links and Outputs:
-##### 🖥️ Terraform Output: Results from terraform apply for provisioning servers and resources.
-##### 🌍 AWS EC2 List: Includes public IPs of provisioned instances.
-##### 📜 Pipeline Console Outputs:
-##### Integration job outputs (pylint results to the end).
-##### Deployment job outputs.
+##### 🖥️ Terraform Output: Results from terraform apply for provisioning servers and resources.<br>
+##### 🌍 AWS EC2 List: Includes public IPs of provisioned instances.<br>
+##### 📜 Pipeline Console Outputs:<br>
+##### Integration job outputs (pylint results to the end).<br>
+##### Deployment job outputs.<br>
 ##### 🔗 Curl Command Execution: Verifies the Python API is operational.
