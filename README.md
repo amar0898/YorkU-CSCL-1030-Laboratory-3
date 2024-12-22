@@ -7,7 +7,7 @@
 ### Jenkins Setup:
 The project establishes a robust Jenkins environment using the JenkinsComplex repository. This environment includes:
 
-✅ A Python node configured per class instructions.
+✅ A Python node configured per class instructions.<br>
 ❌ No Java node required, as the lab focuses exclusively on the Python API.
 
 ### 📈 CI/CD Pipelines:
