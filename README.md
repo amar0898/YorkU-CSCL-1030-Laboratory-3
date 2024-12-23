@@ -50,11 +50,11 @@ This project demonstrates the power of CI/CD pipelines to:
 
 ### 📂 Repo Structure:
 
-### 📂 JenkinsComplex:
+### 📂 Jenkins-Server-and-Python-Node:
 Jenkins setup for Python-based CI/CD pipelines.
-### 📂 ContinuousDelivery:
+### 📂 Continuous-Integration-and-Continuous-Delivery:
 Defines the CI/CD pipeline structure and configurations.
-### 📂 ProvisionAppServer:
+### 📂 Provision-Python-Web-App-Server
 Terraform and Ansible scripts for provisioning AWS resources and deploying the application.
 ### 🔗 Links and Outputs:
 ##### 🖥️ Terraform Output: Results from terraform apply for provisioning servers and resources.<br>
